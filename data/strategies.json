@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "updated_at": 0,
+  "templates": {
+    "default": {
+      "name": "默认策略",
+      "blacklist": [
+        "com.tencent.wework",
+        "com.alibaba.android.rimet",
+        "com.ss.android.lark"
+      ],
+      "whitelist": [
+        "com.termux",
+        "com.topjohnwu.magisk"
+      ],
+      "enable_blacklist": true,
+      "enable_whitelist": false,
+      "hide_root": true,
+      "hide_bootloader": true
+    },
+    "gaming": {
+      "name": "游戏模式",
+      "blacklist": [
+        "com.tencent.tmgp.pubgmhd",
+        "com.miHoYo.GenshinImpact",
+        "com.tencent.tmgp.speedmobile"
+      ],
+      "whitelist": [],
+      "enable_blacklist": true,
+      "enable_whitelist": false,
+      "hide_root": true,
+      "hide_bootloader": true
+    }
+  }
+}
